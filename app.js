@@ -7,22 +7,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
         case 4: return decorators.reduceRight(function(o, d) { return (d && d(target, key, o)) || o; }, desc);
     }
 };
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
 var angular2_1 = require("angular2/angular2");
-var HelloWorld = (function () {
-    function HelloWorld() {
+var GoodbyeWorld = (function () {
+    function GoodbyeWorld() {
     }
-    HelloWorld = __decorate([
+    GoodbyeWorld = __decorate([
         angular2_1.Component({
-            selector: 'hello-world'
+            selector: 'goodbye-world'
         }),
         angular2_1.View({
-            template: "<article>Hello world</article>"
-        }), 
-        __metadata('design:paramtypes', [])
-    ], HelloWorld);
-    return HelloWorld;
+            template: "<article>Goodbye world</article>"
+        })
+    ], GoodbyeWorld);
+    return GoodbyeWorld;
 })();
-angular2_1.bootstrap(HelloWorld);
+angular2_1.bootstrap(GoodbyeWorld);

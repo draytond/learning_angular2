@@ -7,12 +7,12 @@ import {
 } from "angular2/angular2";
 
 @Component({
-  selector: 'hello-world'
+  selector: 'goodbye-world'
 })
 @View({
-  template: `<article>Hello world</article>`
+  template: `<article>Goodbye world</article>`
 })
-class HelloWorld {
+class GoodbyeWorld {
 }
 
-bootstrap(HelloWorld);
+bootstrap(GoodbyeWorld);
